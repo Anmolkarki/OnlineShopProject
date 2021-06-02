@@ -1,0 +1,110 @@
+<!DOC<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Web Applications and Technologies </title>
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link type="text/css" rel="stylesheet" href="main7.css" />
+      <style>
+      body{background: purple;}
+      .firstgrid{float:left;width:100%;height:200px;margin-left:150px;}
+      .secondgrid{float:left;width:100%;height:200px;margin-left:150px;margin-top: 10px;}
+      .one{display:inline-block;float:left;background:white;width:35%;height:200px;}
+    .two{display:inline-block;float:left;background:red;color:white;width:20%;height:200px;margin-left: 10px;}
+    .three{display:inline-block;float:left;background:orange;width:20%;height:200px;margin-left: 10px;color:white;}
+    .four{display:inline-block;float:left;width:35%;height:200px;background-color: #87CEFA;color:white;}
+    .five{display:inline-block;float:left;width:41%;height:200px;background-color: grey;color:black;margin-left: 10px;}
+    img{height:200px;width:100%;}
+    h1{margin-left: 20px;}
+    h2{margin-left: 100px;font-size: 30px;}
+    p{margin-left: 35px;}
+    section{margin-left: 100px;}
+    h3{margin-left: 25px;}
+    span{font-weight: bold;font-size: 22px;}
+    table{margin-left: 40px;color:white;}
+    form{margin-top: 15px;margin-left: 10px;}
+  </style>
+   </head>
+   <body>
+    <div class="firstgrid">
+      <div class="one">
+        <img  src="image_wat.jpg" alt="image_wat">
+      </div>
+       <div class="two">
+        <h1>Links</h1>
+           <ul>
+          <li><u>Chubkins</u></li>
+          <li><u>w3 Schools</u></li>
+          <li><u>Learn Web Dev</u></li>
+          <li><u>Colour Refrence</u></li>
+        </ul>
+      </div>
+       <div class="three">
+        <p>WAT Lecture</p>
+          <section>12:00- 13:00 LTB</section>
+               </br>
+             </br>
+          <p>Every <span class="capital">WED</span></p>
+      </div>
+    </div>
+     <div class="secondgrid">
+       <div class="four">
+        <h2>WAT Assessment</h2>
+      <table>
+        <thead>
+          <td>Title</td>
+          <td>Weight</td>
+          <td>Due</td>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Work in progress</td>
+          <td>20%</td>
+          <td>See VLE</td>
+        </tr>
+        <tr>
+          <td>Portfolio</td>
+          <td>50%</td>
+          <td>See VLE</td>
+
+        </tr>
+        <tr>
+          <td>Phase Exam</td>
+          <td>30%</td>
+          <td>See VLE</td>
+        </tr>
+        </tbody>
+      </table>
+      </div>
+       <div class="five">
+        <h3>Search For Property <h3>
+        <form action="" method="POST" >
+        
+        <div >
+          <label>Location:</label>
+          <input type="text" name="location" value="e.g this or that" alt="e.g this or that"/><br/>
+        </div>
+
+        <div>
+          <label>Category:</label>
+          <input type="" name="category" value="Flat" alt="Flat"/>
+        <br/>
+          <label>Beds:</label>
+          <input type="number" name="beds" value="4"/><br/>
+        </div>
+        
+        <div >
+          <input type="radio" name="price" 
+          value="Price"/>Price
+          <input type="radio" name="beds" value="Beds" />Beds
+          <input type="radio" name="alpha" value="Alpha"/>Alpha<br/>
+        </div>
+
+        <div class="">
+          <input type="submit" name="submit" value="Submit"/>
+        </div>
+      </form>
+      </div>
+    </div>
+   </body>
+</html>
